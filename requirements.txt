@@ -1,4 +1,7 @@
 streamlit>=1.33.0
-python-dotenv
-azure-ai-inference
+python-dotenv>=1.0.1
+azure-ai-inference>=1.0.0b1
+azure-core>=1.29.5streamlit>=1.33.0
+python-dotenv>=1.0.1
+azure-ai-inference>=1.0.0b1
 azure-core>=1.29.5
