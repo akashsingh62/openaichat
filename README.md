@@ -1,19 +1,18 @@
 ## 📸 Screenshot
 
-Here’s how the Azure OpenAI Chat Application looks:
+Here’s how the OpenAI Chat Application looks:
 
 ![Chatbot UI Screenshot](https://github.com/akashsingh62/openaichat/blob/main/chatbot%20screen%20shot%20.png?raw=true)
 
 
-# 🧠 Azure OpenAI Chat Application
+# 🧠OpenAI Chat Application
 
 A modern, responsive chatbot interface built with **Streamlit** and powered by **Azure OpenAI (GPT-4.1)**. This application replicates the ChatGPT-style experience, with clean UI, fixed input area, and seamless Azure backend integration.
 
 ---
 
-## 🚀 Live Demo
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://intellichatbot.streamlit.app/)
 
-🔗 [https://your-app-name.streamlit.app](https://intellichatbot.streamlit.app/)
 
 > Replace the link with your Streamlit Cloud deployment.
 
