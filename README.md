@@ -1,38 +1,45 @@
-# 🤖 Local AI Chat App using Ollama + Streamlit
-
-A sleek, privacy-first conversational chat app powered by **Ollama's LLaMA3** model and built with **Streamlit**. Ask questions and get responses — all running locally with **no API keys, no cloud dependencies**.
-
----
-
 ## 📸 Demo
 
 ![Chat App Screenshot](chatbot screen shot .png)
+
+# 🧠 Azure OpenAI Chat Application
+
+A modern, responsive chatbot interface built with **Streamlit** and powered by **Azure OpenAI (GPT-4.1)**. This application replicates the ChatGPT-style experience, with clean UI, fixed input area, and seamless Azure backend integration.
+
+---
+
+## 🚀 Live Demo
+
+🔗 [https://your-app-name.streamlit.app](https://intellichatbot.streamlit.app/)
+
+> Replace the link with your Streamlit Cloud deployment.
 
 ---
 
 ## ✨ Features
 
-✅ Fully local — no internet, no cloud model  
-✅ Powered by LLaMA3 via [Ollama](https://ollama.com)  
-✅ Responsive UI using Streamlit  
-✅ Chat history display  
-✅ Modern dark theme  
+- 🧠 Powered by Azure OpenAI (GPT-4.1)
+- 💬 Scrollable chat window with fixed input box
+- 🎨 Beautiful dark mode UI (custom CSS)
+- 🗂️ Chat history using `st.session_state`
+- ☁️ Easy to deploy on Streamlit Cloud or Azure
 
 ---
 
-## 🚀 How It Works
+## 🛠 Tech Stack
 
-- User enters a query in the text box.
-- The prompt is passed to `Ollama` via `ChatOllama`.
-- The response is returned and rendered in the chat window.
-- All chats are stored in `st.session_state` for history.
+- **Streamlit** – UI framework
+- **Azure OpenAI Service** – GPT-4.1 via `azure.ai.inference`
+- **Python** – Application logic
+- **dotenv** – Environment configuration
+- **CSS** – Custom responsive styling
 
 ---
 
-## 🛠️ Installation & Setup
+## 📦 Setup Instructions
 
-### 1. Clone this repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ollama-streamlit-chat.git
-cd ollama-streamlit-chat
+git clone https://github.com/your-username/azure-openai-chat.git
+cd azure-openai-chat
