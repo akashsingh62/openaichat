@@ -1,6 +1,9 @@
-## 📸 Demo
+## 📸 Screenshot
 
-![Chat App Screenshot](chatbot screen shot .png)
+Here’s how the Azure OpenAI Chat Application looks:
+
+![Chatbot UI Screenshot](https://github.com/akashsingh62/openaichat/blob/main/chatbot%20screen%20shot%20.png?raw=true)
+
 
 # 🧠 Azure OpenAI Chat Application
 
