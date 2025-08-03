@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 import os
 from dotenv import load_dotenv
@@ -13,7 +14,10 @@ token = os.environ.get("AZURE_OPENAI_KEY")
 # Azure setup
 endpoint = "https://models.github.ai/inference"  # Replace with your endpoint
 model = "openai/gpt-4.1"
+
+# Initialize Azure OpenAI client
 client = ChatCompletionsClient(endpoint=endpoint, credential=AzureKeyCredential(token))
+
 
 # 💄 Styling
 st.markdown("""
